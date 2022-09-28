@@ -1,0 +1,2 @@
+,ingestion_date,product_name,most_ordered_day,is_public_holiday,tt_review_points,pct_one_star_review,pct_two_star_review,pct_three_star_review,pct_four_star_review,pct_five_star_review,pct_early_shipments,pct_late_shipments
+0,2022-09-28,Screwdriver,2022-08-18,False,940,18.670886075949365,23.417721518987342,18.670886075949365,20.253164556962027,18.9873417721519,81.88976377952756,18.11023622047244
