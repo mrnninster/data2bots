@@ -77,6 +77,7 @@ def best_performing_product():
     return(highest_reviewed_id,product_name,review_sum,pct_one_star,pct_two_star,pct_three_star,pct_four_star,pct_five_star)
 
 
+# Data Processing
 if __name__ == "__main__":
 
     # Connect to database
@@ -86,7 +87,7 @@ if __name__ == "__main__":
     staging = os.getenv("STAGING")
     analytics = os.getenv("ANALYTICS")
 
-    # Connect to bucket
+    # Connect to bucket and download files
     bk = bucket()
     os.makedirs("downloads", exist_ok=True)
     bk.download(file_category="orders",src_name="orders.csv",dst_name="downloads/orders.csv")
